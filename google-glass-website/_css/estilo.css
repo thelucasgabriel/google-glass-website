@@ -29,7 +29,9 @@ figure.foto-legenda figcaption{
     width: 100%;
     height: 100%;
     padding: 10px;
-    box-sizing: border-box;
+    box-sizing: border-box; /*The "box-sizing" property and the "border-box" value
+    were used to contain the
+    "background-color" property that was left out of the figure. */
 
 }
 
