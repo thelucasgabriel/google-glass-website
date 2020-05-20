@@ -39,3 +39,27 @@ figure.foto-legenda:hover figcaption{
     opacity: 100%;
     transition: opacity 1s;
 }
+/* Menu fomratting */
+
+nav#menu{
+    display: block; /* Displays the menu as a block so that the menu can float.*/
+}
+
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute; /* In the relative position, the ul is "stuck" inside the nav#menu, if it's absolute, it's released by the page. */
+    top: -20px;
+    left: 300px;
+
+}
+
+nav#menu li{
+    display: inline-block; /* Displays a block in the same row. */
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 2px;
+}
+nav#menu h1{
+    display: none; /*This way the title "Menu Principal" will be hidden visually. */
+}
