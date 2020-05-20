@@ -59,7 +59,25 @@ nav#menu li{
     background-color: #dddddd;
     padding: 10px;
     margin: 2px;
+    transition: background-color 1s;
+    -webkit-transition: background-color 1s;
+    -moz-transition: background-color 1s;
+    -o-transition: background-color 1s;
+    -ms-transition: background-color 1s;
+}
+
+nav#menu li:hover{
+    background-color: #606060;
 }
 nav#menu h1{
     display: none; /*This way the title "Menu Principal" will be hidden visually. */
+}
+
+nav#menu a{
+    color: #000000;
+    text-decoration: none;
+}
+
+nav#menu a:hover{
+    color: #ffffff;
 }
