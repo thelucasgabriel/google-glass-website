@@ -135,6 +135,20 @@ section#corpo{
     padding-right: 20px ;
 }
 
+table#tabelaspec {
+    border: 1px solid #606060;
+    border-spacing: 0px; /* To eliminate the space created inside the edge, between the tds. */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table#tabelaspec td{
+    border: 1px solid #606060;
+    padding: 10px;
+    text-align: right;
+    
+}
+
 aside#lateral{
     display: block;
     width: 350px;
