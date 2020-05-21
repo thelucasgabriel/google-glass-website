@@ -145,8 +145,35 @@ table#tabelaspec {
 table#tabelaspec td{
     border: 1px solid #606060;
     padding: 10px;
-    text-align: right;
+    text-align: middle;
     
+}
+
+table#tabelaspec td.ce{
+    color: #ffffff;
+    background-color: #606060;
+    vertical-align: top; /* The class will predominate over the id. */
+    font-weight: bold;
+}
+
+table#tabelaspec td.cd{
+    background-color: #cecece;
+
+}
+
+table#tabelaspec caption{
+    color: #888888;
+    font-size: 13pt;
+    font-weight: bolder;
+
+}
+
+table#tabelaspec caption span{
+    display: block; /* To separate from the standard text formatting. */
+    float: right;
+    color: #000000;
+    font-size: 8pt;
+    margin-top: 10px;
 }
 
 aside#lateral{
